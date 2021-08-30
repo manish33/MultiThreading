@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a729a57e-dfcd-421f-9b22-a6fef003bc8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadLocal/WithThreadLocal/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadLocal/WithoutThreadLocal/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceExecutor/SingleThreaded/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceExecutor/SingleThreaded/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Multiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/StartMethod/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/E_StartMethod/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/UsingInlineRunnable/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/D_UsingInlineRunnable/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/UsingLambda/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/C_UsingLambda/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/UsingRunnable/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/B_UsingRunnable/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/UsingThread/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/A_UsingThread/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +60,26 @@
       <recent name="$PROJECT_DIR$/src/RejectHandlerPolicy/Discard" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadLocal.WithThreadLocal.Solution" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ThreadLocal.WithThreadLocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A_HowToCreateThread.E_StartMethod.Solution" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A_HowToCreateThread.E_StartMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RejectHandlerPolicy.Discard.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadLocal.WithoutThreadLocal.Solution" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RejectHandlerPolicy.Discard.*" />
+          <option name="PATTERN" value="ThreadLocal.WithoutThreadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +127,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadLocal.WithoutThreadLocal.Solution" />
+      <option name="MAIN_CLASS_NAME" value="A_HowToCreateThread.A_UsingThread.Solution" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadLocal.WithoutThreadLocal.*" />
+          <option name="PATTERN" value="A_HowToCreateThread.A_UsingThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,45 +201,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1587821619234">
+    <state width="1638" height="281" key="GridCell.Tab.0.bottom" timestamp="1630321486821">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1587821619234" />
-    <state x="631" y="429" width="420" height="192" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587761976698">
+    <state width="1638" height="281" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1630321486821" />
+    <state width="1638" height="281" key="GridCell.Tab.0.center" timestamp="1630321486819">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="631" y="429" width="420" height="192" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1680.1050@0.0.1680.1050" timestamp="1587761976698" />
-    <state width="1638" height="281" key="GridCell.Tab.0.bottom" timestamp="1587922914589">
+    <state width="1638" height="281" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1630321486819" />
+    <state width="1638" height="281" key="GridCell.Tab.0.left" timestamp="1630321486818">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587922914589" />
-    <state width="1638" height="281" key="GridCell.Tab.0.center" timestamp="1587922914588">
+    <state width="1638" height="281" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1630321486818" />
+    <state width="1638" height="281" key="GridCell.Tab.0.right" timestamp="1630321486820">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587922914588" />
-    <state width="1638" height="281" key="GridCell.Tab.0.left" timestamp="1587922914588">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587922914588" />
-    <state width="1638" height="281" key="GridCell.Tab.0.right" timestamp="1587922914589">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587922914589" />
-    <state x="328" y="106" key="SettingsEditor" timestamp="1587816343053">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1587816343053" />
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1587738876144">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587738876143" />
-    <state x="495" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587643943668">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="495" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1587643943668" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1587652767199">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1587652767199" />
+    <state width="1638" height="281" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1630321486820" />
   </component>
 </project>

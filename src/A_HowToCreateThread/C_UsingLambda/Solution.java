@@ -1,4 +1,4 @@
-package HowToCreateThread.UsingLambda;
+package A_HowToCreateThread.C_UsingLambda;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package HowToCreateThread.UsingThread;
+package A_HowToCreateThread.A_UsingThread;
 
 class SmartThread extends Thread{
 

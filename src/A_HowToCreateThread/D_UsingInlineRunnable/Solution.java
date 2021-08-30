@@ -1,4 +1,4 @@
-package HowToCreateThread.UsingInlineRunnable;
+package A_HowToCreateThread.D_UsingInlineRunnable;
 
 public class Solution {
 

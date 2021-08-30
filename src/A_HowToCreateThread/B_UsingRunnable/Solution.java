@@ -1,4 +1,4 @@
-package HowToCreateThread.UsingRunnable;
+package A_HowToCreateThread.B_UsingRunnable;
 
 class SmartThread implements Runnable{
 
