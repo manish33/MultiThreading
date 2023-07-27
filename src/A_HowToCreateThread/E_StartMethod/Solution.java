@@ -8,6 +8,7 @@ class SmartThread extends Thread {
 
     public void start(){
         System.out.println("tricky");
+        // =======focus here in super.start()
         super.start();
     }
 

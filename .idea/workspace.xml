@@ -1,15 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a729a57e-dfcd-421f-9b22-a6fef003bc8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/I_Synchronized/D_ClassLevelLockSyncMethod/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/J_DeadLock/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Multiplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/StartMethod/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/E_StartMethod/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/UsingInlineRunnable/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/D_UsingInlineRunnable/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/UsingLambda/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/C_UsingLambda/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/UsingRunnable/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/B_UsingRunnable/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HowToCreateThread/UsingThread/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/A_UsingThread/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/A_HowToCreateThread/E_StartMethod/SmartThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreading/A_HowToCreateThread/E_StartMethod/SmartThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/A_HowToCreateThread/E_StartMethod/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MultiThreading/A_HowToCreateThread/E_StartMethod/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/CallableFuture/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/CallableFuture/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ExecutorServiceConstructor/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ExecutorServiceConstructor/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Interrupt/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Interrupt/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Join/ChildThreadJoinsMain/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Join/ChildThreadJoinsMain/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Join/MainThreadJoinsChild/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Join/MainThreadJoinsChild/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Lock/ReentrantLock/CounterBoy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Lock/ReentrantLock/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Lock/ReentrantLock/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Lock/SimpleFaultyLock/CounterBoy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Lock/SimpleFaultyLock/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Lock/SimpleFaultyLock/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/META-INF/MultiThreading.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ClassLevelLockSyncMethod/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ClassLevelLockSyncMethod/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ClassLevelLockSyncMethod/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ProducerConsumer/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ProducerConsumer/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ProducerConsumer/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ProducerConsumerBlockingQueue/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ProducerConsumerBlockingQueue/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/ProducerConsumerBlockingQueue/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/SynchronizedBlockClassLevel/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/SynchronizedBlockClassLevel/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/SynchronizedBlockClassLevel/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSyncMethod/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSyncMethod/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSyncMethod/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSynchronizedBlockObjectLevelLock/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSynchronizedBlockObjectLevelLock/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSynchronizedBlockObjectLevelLock/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSynchronizedMethodOndifferentMethodSameObject/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSynchronizedMethodOndifferentMethodSameObject/SmartThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSynchronizedMethodOndifferentMethodSameObject/SmartThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Synchronized/UsingSynchronizedMethodOndifferentMethodSameObject/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadGroup/CreateThreadGroup/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadGroup/GetThreadGroupName/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Multiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithThreadLocal/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithoutThreadLocal/Multiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadLocal/WithoutThreadLocal/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadName/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadName/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadPriority/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/ThreadPriority/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Yield/ChildThreadGivesTheChance/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Yield/ChildThreadGivesTheChance/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Yield/MainThreadGiveChance/SmartThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MultiThreading/Yield/MainThreadGiveChance/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A_HowToCreateThread/E_StartMethod/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A_HowToCreateThread/E_StartMethod/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CallableFuture/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Z_CallableFuture/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExecutorServiceConstructor/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/X_ExecutorServiceConstructor/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interrupt/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H_Interrupt/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Join/ChildThreadJoinsMain/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Join/ChildThreadJoinsMain/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Join/MainThreadJoinsChild/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/F_Join/MainThreadJoinsChild/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lock/ReentrantLock/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lock/B_ReentrantLock/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lock/ReentrantLockComesWithJava/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lock/C_ReentrantLockComesWithJava/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lock/SimpleFaultyLock/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lock/A_SimpleFaultyLock/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Synchronized/ClassLevelLockSyncMethod/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Synchronized/ProducerConsumer/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_Synchronized/ProducerConsumer/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Synchronized/ProducerConsumerBlockingQueue/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_Synchronized/ProducerConsumerBlockingQueue/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Synchronized/SynchronizedBlockClassLevel/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_Synchronized/B_SynchronizedBlockClassLevel/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Synchronized/UsingSyncMethod/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_Synchronized/A_UsingSyncMethod/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Synchronized/UsingSynchronizedBlockObjectLevelLock/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_Synchronized/B_UsingSynchronizedBlockObjectLevelLock/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Synchronized/UsingSynchronizedMethodOndifferentMethodSameObject/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I_Synchronized/C_UsingSynchronizedMethodOndifferentMethodSameObject/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadGroup/CreateThreadGroup/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C_ThreadGroup/CreateThreadGroup/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadGroup/GetThreadGroupName/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C_ThreadGroup/GetThreadGroupName/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadLocal/WithThreadLocal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E_ThreadLocal/WithThreadLocal/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadLocal/WithoutThreadLocal/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E_ThreadLocal/WithoutThreadLocal/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadName/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B_ThreadName/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadPriority/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D_ThreadPriority/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yield/ChildThreadGivesTheChance/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/G_Yield/ChildThreadGivesTheChance/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yield/MainThreadGiveChance/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/G_Yield/MainThreadGiveChance/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +113,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ThreadLocal/WithThreadLocal" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/m0s0qyz/Learning/MultiThreading"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Lock.ReentrantLockComesWithJava" />
@@ -60,13 +133,13 @@
       <recent name="$PROJECT_DIR$/src/RejectHandlerPolicy/Discard" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadLocal.WithThreadLocal.Solution" />
+  <component name="RunManager" selected="Application.Lock.ReadWriteLock.Solution">
+    <configuration name="I_Synchronized.ProducerConsumerBlockingQueue.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I_Synchronized.ProducerConsumerBlockingQueue.Solution" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadLocal.WithThreadLocal.*" />
+          <option name="PATTERN" value="I_Synchronized.ProducerConsumerBlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A_HowToCreateThread.E_StartMethod.Solution" />
+    <configuration name="J_DeadLock.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="J_DeadLock.Solution" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A_HowToCreateThread.E_StartMethod.*" />
+          <option name="PATTERN" value="J_DeadLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RejectHandlerPolicy.DiscardOldest.Solution" />
+    <configuration name="Lock.A_SimpleFaultyLock.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lock.A_SimpleFaultyLock.Solution" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RejectHandlerPolicy.DiscardOldest.*" />
+          <option name="PATTERN" value="Lock.A_SimpleFaultyLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CallableFuture.Solution" />
+    <configuration name="Lock.B_ReentrantLock.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lock.B_ReentrantLock.Solution" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CallableFuture.*" />
+          <option name="PATTERN" value="Lock.B_ReentrantLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadLocal.WithoutThreadLocal.Solution" />
+    <configuration name="Lock.ReadWriteLock.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lock.ReadWriteLock.Solution" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadLocal.WithoutThreadLocal.*" />
+          <option name="PATTERN" value="Lock.ReadWriteLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Lock.ReadWriteLock.Solution" />
+        <item itemvalue="Application.Lock.A_SimpleFaultyLock.Solution" />
+        <item itemvalue="Application.Lock.B_ReentrantLock.Solution" />
+        <item itemvalue="Application.J_DeadLock.Solution" />
+        <item itemvalue="Application.I_Synchronized.ProducerConsumerBlockingQueue.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +260,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -199,23 +273,5 @@
       <updated>1587635412427</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1638" height="281" key="GridCell.Tab.0.bottom" timestamp="1630321486821">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1630321486821" />
-    <state width="1638" height="281" key="GridCell.Tab.0.center" timestamp="1630321486819">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1630321486819" />
-    <state width="1638" height="281" key="GridCell.Tab.0.left" timestamp="1630321486818">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1630321486818" />
-    <state width="1638" height="281" key="GridCell.Tab.0.right" timestamp="1630321486820">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="281" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1630321486820" />
   </component>
 </project>
