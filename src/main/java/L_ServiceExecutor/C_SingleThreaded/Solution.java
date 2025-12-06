@@ -30,3 +30,9 @@ public class Solution {
 
     }
 }
+
+// Usage notes:
+// When to use: newSingleThreadExecutor() is best when tasks must execute sequentially with strict ordering
+// and you want a dedicated thread (e.g., event processing, serialization of access to a resource).
+// Data structures/behavior: Backed by a ThreadPoolExecutor with one worker thread and an unbounded LinkedBlockingQueue.
+// Only one task runs at a time; tasks are queued and executed in FIFO order. If the thread dies, a new one is created.

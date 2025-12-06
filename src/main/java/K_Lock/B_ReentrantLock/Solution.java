@@ -20,7 +20,7 @@ class Lock{
 
             if (lockcount==0){
                 isLocked=false;
-                notify();
+                notifyAll();
             }
         }
 

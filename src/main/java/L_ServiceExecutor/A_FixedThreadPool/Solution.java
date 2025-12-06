@@ -28,3 +28,11 @@ public class Solution {
         }
     }
 }
+
+// Usage notes:
+// When to use: newFixedThreadPool(n) is ideal when you have a steady number of CPU-bound or IO tasks
+// and want to cap concurrency to n threads. It provides bounded parallelism and predictable resource use.
+// Data structures: Executors.newFixedThreadPool uses a ThreadPoolExecutor backed by a LinkedBlockingQueue
+// (unbounded queue by default) and a fixed core/max pool size of n. Threads are reused; tasks beyond the
+// running threads are queued in the LinkedBlockingQueue.
+// Behavior: If all n threads are busy, new tasks wait in the queue. Threads are kept alive and reused.

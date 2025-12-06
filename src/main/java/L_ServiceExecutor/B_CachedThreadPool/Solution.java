@@ -30,3 +30,11 @@ public class Solution {
 
     }
 }
+
+// Usage notes:
+// When to use: newCachedThreadPool() is suited for many short-lived, bursty asynchronous tasks.
+// It creates new threads as needed and reuses idle threads; good when you don't want to limit concurrency
+// but also don't want to keep a fixed number of threads.
+// Data structures: Backed by a ThreadPoolExecutor with a SynchronousQueue (handoff queue, no capacity).
+// Core pool size is 0; max is Integer.MAX_VALUE; idle threads are terminated after keep-alive (default 60s).
+// Behavior: Tasks are directly handed off to threads; if no idle thread is available, a new thread is created.

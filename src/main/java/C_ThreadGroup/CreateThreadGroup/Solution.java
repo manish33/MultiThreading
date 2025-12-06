@@ -11,14 +11,15 @@ public class Solution {
 
         Thread t1 = new Thread(tg1,"thread 1");
         Thread t2 = new Thread(tg1,"thread 1");
-
+        t1.start();
+        t2.start();
        tg1.list();
         System.out.println(tg1.activeCount());
         System.out.println(tg1.activeGroupCount());
-        Thread[] t = new Thread[tg1.activeCount()];
+        Thread[] t = new Thread[2];
         tg1.enumerate(t);
         for(Thread x: t){
-            System.out.println(x.getName());
+            System.out.println("x: "+x.getName());
         }
     }
 }

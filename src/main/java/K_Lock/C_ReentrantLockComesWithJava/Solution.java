@@ -6,6 +6,12 @@ import java.util.concurrent.locks.ReentrantLock;
 
 class CounterBoy implements Runnable{
     int count = 0 ;
+    //fair meaning
+    //Thread A requests first → Thread A gets lock first.
+    //
+    //Thread B requests second → Thread B will not be skipped.
+    //
+    //No starvation.
     Lock lock = new ReentrantLock(true);
 
     @Override

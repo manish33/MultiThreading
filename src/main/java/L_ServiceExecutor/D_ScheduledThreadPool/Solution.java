@@ -28,3 +28,10 @@ public class Solution {
 
     }
 }
+
+// Usage notes:
+// When to use: newScheduledThreadPool(n) is for delayed and periodic task execution (timers, heartbeats,
+// maintenance jobs). Choose n based on the max concurrent scheduled tasks.
+// Data structures/behavior: Backed by a ScheduledThreadPoolExecutor using a time-ordered DelayQueue internally.
+// Supports schedule(..), scheduleAtFixedRate(..), scheduleWithFixedDelay(..). Threads are reused like a fixed pool.
+// Fixed-rate tries to maintain a regular rate (can catch up), fixed-delay waits the specified delay after task completion.

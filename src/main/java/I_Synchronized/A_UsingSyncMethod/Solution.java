@@ -38,7 +38,7 @@ class SmartThread implements Runnable {
         d.display(this.name);
 
         // with sync
-        System.out.println();
+        System.out.println("thread2 started");
         d.display1(this.name);
 
     }

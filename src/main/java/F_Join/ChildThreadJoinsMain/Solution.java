@@ -26,12 +26,10 @@ public class Solution {
         Thread t1 = new Thread(smt);
         t1.start();
 
-        for(int i=0;i<100;i++){
+        for(int i=0;i<100;i++) {
             System.out.println("main thread");
             Thread.sleep(100);
         }
-
-
 
     }
 }

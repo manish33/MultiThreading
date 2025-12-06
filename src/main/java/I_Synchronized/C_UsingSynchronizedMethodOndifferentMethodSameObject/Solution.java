@@ -46,3 +46,13 @@ public class Solution {
         t1.start();
         t2.start();
     }}
+
+//One thread will acquire the lock first (e.g., t1).
+//
+//It will print its complete sequence of numbers: 0123456789.
+//
+//It will release the lock.
+//
+//The other thread (t2) will acquire the lock.
+//
+//It will print its complete sequence of characters: ABCDEFGHIJKLMNO.

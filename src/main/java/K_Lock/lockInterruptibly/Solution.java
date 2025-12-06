@@ -1,9 +1,22 @@
 package K_Lock.lockInterruptibly;
 
 import java.util.concurrent.locks.ReentrantLock;
-
+//If you use lock.lock():
+//
+//Thread will wait forever to get the lock
+//
+//Even if someone calls thread.interrupt(),
+//it will NOT stop waiting
+//
+//If you use lock.lockInterruptibly():
+//
+//If someone calls thread.interrupt(),
+//the thread immediately stops waiting
+//
+//And throws InterruptedException
 public class Solution {
     public static void main(String[] args) {
+
         ReentrantLock lock = new ReentrantLock();
         Thread thread = new Thread(() -> {
             int i = 0;
